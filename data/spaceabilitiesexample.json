@@ -1,0 +1,32 @@
+{
+  "name": "",
+  "wiki_url": "",
+  "icon_url": "",
+  "type": "Bridge officer ability",
+  "profession": "",
+  "region": "Space",
+  "system": "",
+  "description": "",
+  "target": "",
+  "activation_seconds": null,
+  "recharge_seconds": null,
+  "shared_cooldown_seconds": null,
+  "range_km": null,
+  "arc_degrees": null,
+  "affects_cloaked_targets": false,
+  "ranks": [
+    {
+      "rank": "I",
+      "effects": {}
+    }
+  ],
+  "modified_by": {
+    "skills": [],
+    "traits": [],
+    "duty_officers": [],
+    "starship_traits": []
+  },
+  "trained_by": [],
+  "countered_by": [],
+  "categories": []
+}
