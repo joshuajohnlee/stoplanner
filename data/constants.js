@@ -59,3 +59,12 @@ export function parseSeatName(boff) {
     }
     return seatName
 }
+
+export function getIconName(boff) {
+    let iconName = "Boff_" + ranks[boff.rank] + "_" + professions[boff.profession]
+    if (boff.specialization) {
+        iconName += "_" + specializations[boff.specialization]
+    }
+    iconName += ".png"
+    return iconName
+}
